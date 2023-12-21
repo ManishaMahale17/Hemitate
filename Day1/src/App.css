@@ -1,0 +1,25 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.coffe {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.coffe li {
+  margin: 10px;
+}
+
+.img-container {
+  margin-top: 10px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}

@@ -19,11 +19,19 @@
     </div>
     <input type="color" id="color">
     <button onClick="changeColor()">Change color</button>
+    
+          <!-- <h1>Color Picker on mouseover</h1> 
+   <div id="container" onmouseover="changeColor()">
+    box1
+    </div>
+    <input type="color" id="color">
+    --!>
     <script>
         function changeColor(){
             var selectColor=document.getElementById("color").value
             document.getElementById("container").style.backgroundColor=selectColor;
         }
+
     </script>
 </body>
 </html>

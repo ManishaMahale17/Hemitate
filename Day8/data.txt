@@ -1,0 +1,32 @@
+Trainer Details
+______________________________________________________________________
+1.Trainer Id			
+2.Trainer Type:(Freelancer/Inhouse)			
+3.Trainer Name
+4.Email id				
+5.Gender		
+6.Contact		
+7.Address	
+8.Expertise  subject		
+9.Experience			
+10.Teachers daily updates 
+11.Batch size		
+12.Calendar/Planner
+ (feature to input day-wise and hour-wise lesson plans).
+
+13.Mode:offline/online
+14. schedule from:(date)				
+15.Availability  schedule
+(Information about the times and days when the trainer is available for teaching or other related activities.)
+		
+15.Assessments 
+Capability to associate Links assessments (weekly, monthly, and final) with specific course topics or modules.
+	
+16.Login and Profile Association
+(Teachers should be able to log in, access their profile, and associate themselves with courses and batches.)
+		
+17.Training Materials 	
+(A repository or section where trainers can upload and manage training materials such as presentations, documents, and resources.)	
+
+18.Status:InProgress,Compelted,Delayed
+19.

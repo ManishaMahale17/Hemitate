@@ -1,0 +1,49 @@
+//Navbar.js
+
+import React from 'react'
+import { AppBar,Toolbar,Typography} from '@mui/material'
+
+const Navbar = () => {
+  return (
+    <div>
+      <AppBar>
+        <Toolbar >
+           <Typography>Hemetite Infotech</Typography> 
+           <Typography>All User</Typography>
+           <Typography>Add User</Typography>
+        </Toolbar>
+      </AppBar>
+    </div>
+  )
+}
+
+export default Navbar
+_________________________________
+Navbar.js
+
+import React from 'react'
+import { AppBar,Toolbar,Typography,styled } from '@mui/material'
+
+const Header=styled(AppBar)`
+background:#111111;`
+
+const Tabs=styled(Typography)`
+font-size:20px;
+margin-right:20px`
+
+
+const Navbar = () => {
+  return (
+    <div>
+      <Header>
+        <Toolbar >
+           <Tabs>Hemetite Infotech</Tabs> 
+           <Tabs>All User</Tabs>
+           <Tabs>Add User</Tabs>
+        </Toolbar>
+      </Header>
+    </div>
+  )
+}
+
+export default Navbar

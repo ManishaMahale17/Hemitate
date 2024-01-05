@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "name": "Monika Phulare",
+      "username": "monikaPhulare",
+      "email": "monika@gmail.com",
+      "phone": "78664355",
+      "expertisesubject": "Reactjs",
+      "experience": "3",
+      "batchsize": "10",
+      "batchmode": "Offline",
+      "availability": "Mon to Sat",
+      "status": "Inprogres",
+      "id": 4
+    },
+    {
+      "name": "Varun",
+      "username": "varun",
+      "email": "varun@gmail.com",
+      "phone": "8954662655",
+      "expertisesubject": "Angular",
+      "experience": "4",
+      "batchsize": "4",
+      "batchmode": "online",
+      "availability": "Mon",
+      "status": "Inprogres",
+      "id": 5
+    },
+    {
+      "name": "Parag Joshi",
+      "username": "paragjoshi1",
+      "email": "paragjoshi@gmail.com",
+      "phone": "987654456",
+      "expertisesubject": "Java",
+      "experience": "10",
+      "batchsize": "30",
+      "batchmode": "Online",
+      "availability": "Mon,Thursday",
+      "status": "Completed",
+      "id": 6
+    },
+    {
+      "name": "Aditya Zagade",
+      "username": "aditya",
+      "email": "adityaZ@gmail.com",
+      "phone": "788888888",
+      "expertisesubject": "Marketing",
+      "experience": "6",
+      "batchsize": "1",
+      "batchmode": "Offline",
+      "availability": "Thuesday,Saturday",
+      "status": "Completed",
+      "id": 7
+    }
+  ]
+}

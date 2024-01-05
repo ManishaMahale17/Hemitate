@@ -1,0 +1,19 @@
+{
+    "trainers": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "expertiseSubject": "Mathematics",
+        "availabilitySchedule": "Mon, Wed, Fri - 9 AM to 5 PM",
+        "dailyUpdates": "Today, covered topics A and B.",
+        "experience": 5,
+        "contact": "123-456-7890",
+        "gender": "Male",
+        "address": "123 Main St",
+        "coursesBatches": ["Course1 - BatchA", "Course2 - BatchB"],
+        "trainingMaterials": ["Presentation.pdf", "Workbook.doc"]
+      }
+    ]
+  }
+  

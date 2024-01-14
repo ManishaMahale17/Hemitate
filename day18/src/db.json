@@ -1,0 +1,31 @@
+{
+    "trainers": [
+      {
+        "id":1,
+        "trainername": "Parag Joshi",
+        "username": "paragjoshi1",
+        "email": "paragjoshi@gmail.com",
+        "contact": "987654456",
+        "expertisesubject": "Java",
+        "experience": "30",
+        "batchsize": "30",
+        "batchmode": "Online",
+        "availability": "Mon,Thursday",
+        "status": "Completed"
+      },
+      {
+        "id":2,
+        "trainername": "Panchshil sir",
+        "username": "panchshil",
+        "email": "panchshil@gmail.com",
+        "contact": "8976543223",
+        "expertisesubject": "ReactJs",
+        "experience": "3",
+        "batchsize": "10",
+        "batchmode": "Offline",
+        "availability": "Monday to Saturday",
+        "status": "Inprogress"
+      }
+    ]
+  }
+  

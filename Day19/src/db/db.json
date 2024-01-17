@@ -1,0 +1,56 @@
+{
+  "trainers": [
+    {
+      "id": "4d83",
+      "trainername": "Mahesh",
+      "username": "mahesh2",
+      "email": "mahesh@gmail.com",
+      "contact": "9865432567",
+      "expertisesubject": "HTML",
+      "experience": "4",
+      "batchsize": "3",
+      "batchmode": "Offline",
+      "availability": "Wed",
+      "status": "Inprogress"
+    },
+    {
+      "id": "1cb7",
+      "trainername": "Vishay Pardeshi",
+      "username": "vijay3",
+      "email": "vijay@gmail.com",
+      "contact": "8765432198",
+      "expertisesubject": "Java",
+      "experience": "3",
+      "batchsize": "10",
+      "batchmode": "Offline",
+      "availability": "Wed",
+      "status": "Inprogress"
+    },
+    {
+      "id": "c405",
+      "trainername": "Adesh H",
+      "username": "adesh3",
+      "email": "adesh@gmail.com",
+      "contact": "8765432198",
+      "expertisesubject": "Java",
+      "experience": "5",
+      "batchsize": "34",
+      "batchmode": "Hybrid",
+      "availability": "Mon",
+      "status": "Inprogress"
+    },
+    {
+      "id": "22be",
+      "trainername": "Monika Phulare",
+      "username": "Monika2",
+      "email": "monika@gmail.com",
+      "contact": "8765432198",
+      "expertisesubject": "Java",
+      "experience": "6",
+      "batchsize": "12",
+      "batchmode": "Offline",
+      "availability": "Wed",
+      "status": "Inprogress"
+    }
+  ]
+}

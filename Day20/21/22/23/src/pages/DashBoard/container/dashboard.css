@@ -1,0 +1,16 @@
+.imgs{
+    height:630px;
+}
+.logo{
+    height: 60px;
+    width: 80px;
+    
+}
+.hem{
+    font-weight: 500;
+}
+.logout{
+    position: 'fixed';
+    top: 10px; 
+    right: 10px;
+}

@@ -1,0 +1,24 @@
+.imgs{
+    height:630px;
+}
+.logo{
+    height: 60px;
+    width: 80px;
+    
+}
+.hem{
+    font-weight: 500;
+}
+.logout{
+    position: 'fixed';
+    top: 10px; 
+    right: 10px;
+}
+.drawer{
+    background-color: #088ae6;
+    height: 900px;
+    
+}
+.drawertext{
+    color: rgb(196, 210, 223);
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Box from "@mui/material/Box";
 import NativeSelect from "@mui/material/NativeSelect";
 import { useNavigate } from "react-router-dom";
@@ -66,6 +66,36 @@ const HolidayForm = () => {
   const isValidDate = (dateString) => {
     const regexDate = /^\d{4}-\d{2}-\d{2}$/;
     return regexDate.test(dateString);
+  };
+  useEffect(() => {
+    validateForm();
+  }, []); 
+
+  const validateForm = () => {
+    const requiredFields = ["holidayname", "date", "holidaytype", "description"];
+    let isValid = true;
+
+    requiredFields.forEach((field) => {
+      if (!holiday[field].trim()) {
+        setErrors((prevErrors) => ({
+          ...prevErrors,
+          [field]: `${
+            field.charAt(0).toUpperCase() + field.slice(1)
+          } is required`,
+        }));
+        isValid = false;
+      }
+    });
+
+    if (!isValidDate(holiday.date)) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        date: "Invalid date format. Please use YYYY-MM-DD.",
+      }));
+      isValid = false;
+    }
+
+    return isValid;
   };
   const onSubmit = () => {
     const requiredFields = [

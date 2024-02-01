@@ -1,0 +1,334 @@
+{
+  "trainers": [
+    {
+      "id": "102",
+      "trainername": "Monika Phulare",
+      "username": "Monika2",
+      "email": "monika@gmail.com",
+      "contact": "8765432198",
+      "expertisesubject": "Java",
+      "experience": "6",
+      "batchsize": "12",
+      "batchmode": "Offline",
+      "availability": "Wed",
+      "status": "Inprogress"
+    },
+    {
+      "id": "e859",
+      "trainername": "Vijay Pardeshi",
+      "username": "vijay",
+      "email": "vijay@gmail.com",
+      "contact": "8765432198",
+      "expertisesubject": "HTML",
+      "experience": "3",
+      "batchsize": "33",
+      "batchmode": "Offline",
+      "availability": "Mon",
+      "status": "Inprogress"
+    }
+  ],
+  "Branches": [
+    {
+      "id": "1",
+      "branchCode": "CHAN-101",
+      "enquiryCode": "ENQ-CHAN",
+      "regCode": "REG-CHAN",
+      "branchName": "Hematite Infotech ",
+      "location": "chandannagar",
+      "phone": 9252156327,
+      "mobile": "8263926309",
+      "email": " contact@hematitecorp.com",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "branchName": "Hematite Infotech ",
+      "location": "chennai",
+      "mobile": "9876543211",
+      "email": "hematite389@gmail.com",
+      "branchCode": "Chennai-103",
+      "enquiryCode": "ENQ-CHENNAI",
+      "regCode": "Reg-103",
+      "status": "Active",
+      "registrationCode": "REG-4"
+    },
+    {
+      "id": "4",
+      "branchCode": "HAD-104",
+      "enquiryCode": "ENQ-WAKAD",
+      "regCode": "REG-104",
+      "branchName": "Hematite Infotech ",
+      "location": "Wakad",
+      "phone": "0252156327",
+      "mobile": "8263926309 ",
+      "email": "hematitehadpasar@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "branchName": "Hematite Infotech ",
+      "location": "pune",
+      "mobile": "998766332",
+      "email": "shraddhat389@gmail.com",
+      "branchCode": "HEM-4",
+      "enquiryCode": "ENQ-CHAN",
+      "regCode": "REG-4",
+      "status": "Active",
+      "registrationCode": "REG-4"
+    }
+  ],
+  "Batches": [
+    {
+      "id": "3",
+      "batchcode": "B7",
+      "batchname": "Batch3",
+      "coursename": "Graphic Design",
+      "batchtime": "12:00 pm to 3:00 pm",
+      "batchtype": "Weekend",
+      "startdate": "2023-05-12",
+      "enddate": "2023-10-20",
+      "batchsize": "15",
+      "trainername": "Aditya Sir",
+      "batchstatus": "Completed",
+      "addedby": "Admin",
+      "batchmode": "Online",
+      "start": "12:00",
+      "end": "15:00"
+    },
+    {
+      "id": "5",
+      "batchcode": "B5",
+      "batchname": "Batch5",
+      "coursename": "MEAN stack",
+      "batchtime": "10:00 am to 1:00 pm",
+      "startdate": "2023-05-12",
+      "enddate": "2023-11-30",
+      "batchsize": "21",
+      "trainername": "Anmol Sir",
+      "batchstatus": "Completed",
+      "addedby": "Admin",
+      "batchmode": "Online",
+      "batchtype": "Weekdays",
+      "start": "10:00",
+      "end": "13:00"
+    },
+    {
+      "id": "6",
+      "batchcode": "B6",
+      "batchname": "Batch6",
+      "coursename": "Full Stack",
+      "batchtime": "11:00 am to 1:00 pm",
+      "startdate": "2023-09-20",
+      "enddate": "2024-01-30",
+      "batchsize": "20",
+      "trainername": "Panchshil sir",
+      "batchstatus": "Inprogress",
+      "addedby": "Admin",
+      "batchmode": "Online",
+      "batchtype": "Weekdays",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "id": "d5ff",
+      "batchcode": "test",
+      "batchname": "test",
+      "coursename": "Graphic Design",
+      "batchtime": "1:28 pm to 5:42 am",
+      "startdate": "2024-01-17",
+      "enddate": "2024-01-23",
+      "batchsize": "78",
+      "trainername": "Panchshil Wankhede",
+      "batchstatus": "Completed",
+      "addedby": "Admin",
+      "batchmode": "Offline",
+      "batchtype": "Weekdays",
+      "start": "13:28",
+      "end": "05:42"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "coursename": "test1",
+      "duration": "test",
+      "fees": "test",
+      "trainer": "test",
+      "description": "test"
+    }
+  ],
+  "students": [
+    {
+      "id": "3",
+      "prn": "222",
+      "name": "Shraddha",
+      "contact": 1234567890,
+      "emailId": "shraddhat389@gmail.com",
+      "dob": "12/12/2000",
+      "gender": "female",
+      "age": "23",
+      "address": "kharadi",
+      "qualification": "bcs",
+      "course": "fullstack",
+      "batchType": "weekly",
+      "batchName": "fullstack",
+      "doj": "10/4/2023"
+    },
+    {
+      "id": "4",
+      "prn": "12",
+      "name": "Mohini",
+      "contact": "1234567852",
+      "emailId": "shraddhat389@gmail.com",
+      "dob": "12/12/12",
+      "gender": "female",
+      "age": "22",
+      "address": "kharadi",
+      "qualification": "bcs",
+      "course": "fullstack",
+      "batchType": "weekly",
+      "batchName": "fullstack",
+      "doj": ""
+    },
+    {
+      "id": "5",
+      "prn": 123456,
+      "name": "Nikita",
+      "contact": 7898789878,
+      "emailId": "nikita12@gmail.com",
+      "dob": "12/3/1992",
+      "gender": "female",
+      "age": 25,
+      "address": "chandan-nagar",
+      "qualification": "B.sc",
+      "course": "Front-end",
+      "batchType": "Weekly",
+      "batchName": "HemFullStack_010123",
+      "doj": "10/4/2024"
+    },
+    {
+      "id": "6",
+      "prn": 123456,
+      "name": "Rani",
+      "contact": 7898789878,
+      "emailId": "rani12@gmail.com",
+      "dob": "12/3/1992",
+      "gender": "female",
+      "age": 25,
+      "address": "chandan-nagar",
+      "qualification": "B.sc",
+      "course": "Front-end",
+      "batchType": "Weekly",
+      "batchName": "HemFullStack_010123",
+      "doj": "10/4/2024"
+    },
+    {
+      "id": "8",
+      "prn": 123456,
+      "name": "Shubham",
+      "contact": 7898789878,
+      "emailId": "shubham12@gmail.com",
+      "dob": "12/3/1992",
+      "gender": "male",
+      "age": 25,
+      "address": "chandan-nagar",
+      "qualification": "B.sc",
+      "course": "Front-end",
+      "batchType": "Weekly",
+      "batchName": "HemFullStack_010123",
+      "doj": "10/4/2024"
+    }
+  ],
+  "users": [
+    {
+      "id": "b10e",
+      "email": "ranisankpal1998@gmail.com",
+      "password": "rani@123",
+      "firstName": "rani"
+    },
+    {
+      "id": "0b73",
+      "email": "manisha@gmail.com",
+      "password": "123",
+      "firstName": "Manisha"
+    },
+    {
+      "id": "87bf",
+      "email": "junaid1023@gmail.com",
+      "password": "junaid123",
+      "firstName": "Junaid"
+    }
+  ],
+  "StudentDetails": [
+    {
+      "id": "1",
+      "studentname": "Mohini",
+      "attendance": "Present"
+    },
+    {
+      "id": "2",
+      "studentname": "Nikita",
+      "attendance": "Absent"
+    },
+    {
+      "id": "4",
+      "studentname": "Rani",
+      "attendance": "Absent"
+    },
+    {
+      "id": "5",
+      "studentname": "Shubham",
+      "attendance": "Absent"
+    }
+  ],
+  "holidays": [
+    {
+      "holidayname": "Repulic ",
+      "date": "2024-01-10",
+      "holidaytype": "NH",
+      "description": "Repulic day",
+      "id": "1"
+    },
+    {
+      "holidayname": "Makar Sankranti",
+      "date": "2024-01-14",
+      "holidaytype": "HL",
+      "description": "Makar Sankranti",
+      "id": "d4a7"
+    },
+    {
+      "holidayname": "Ram Mandir",
+      "date": "2024-02-01",
+      "holidaytype": "NH",
+      "description": "asasa",
+      "id": "1f71"
+    },
+    {
+      "holidayname": "Ram Mandir Inauguration",
+      "date": "2024-02-22",
+      "holidaytype": "NH",
+      "description": "Ram mandir Inauguration",
+      "id": "3a2e"
+    }
+  ],
+  "leaves": [
+    {
+      "id": 1,
+      "trainerid": "T101",
+      "trainername": "Panchshil Wankhede",
+      "startdate": "26-01-2024",
+      "enddate": "26-01-2024",
+      "leavetype": "sick leave",
+      "reason": "cold"
+    },
+    {
+      "id": 2,
+      "trainerid": "T102",
+      "trainername": "Shubham Sathe",
+      "startdate": "27-01-2024",
+      "enddate": "28-01-2024",
+      "leavetype": "Annual leave",
+      "reason": "sick leave"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ import {
 } from "@mui/material";
 
 const initialValue = {
-  id:"",
+  id: "",
   holidayname: "",
   date: "",
   holidaytype: "",
@@ -38,7 +38,6 @@ const SubmitButton = styled(Button)`
   margin-top: 20px;
 `;
 
-
 const HolidayForm = ({ course, action, actionList, handleClose }) => {
   const holidaytypes = ["", "NH", "HL", "WO"];
 
@@ -57,7 +56,7 @@ const HolidayForm = ({ course, action, actionList, handleClose }) => {
   };
   useEffect(() => {
     // if (course) {
-      setHoliday(course);
+    setHoliday(course);
     // }
     // validateForm();
   }, [course]);
@@ -101,7 +100,7 @@ const HolidayForm = ({ course, action, actionList, handleClose }) => {
         date: holiday.date,
         holidaytype: holiday.holidaytype,
         description: holiday.description,
-      }
+      };
       if (action === actionList.Edit) {
         data["id"] = holiday.id;
         dispatch(editHoliday(data));
@@ -118,10 +117,8 @@ const HolidayForm = ({ course, action, actionList, handleClose }) => {
     }
   };
 
-
   return (
     <>
-    
       <Container>
         <FormInput>
           <InputLabel htmlFor="holidayname-input">Holidayname</InputLabel>
@@ -184,7 +181,7 @@ const HolidayForm = ({ course, action, actionList, handleClose }) => {
         </FormInput>
 
         <SubmitButton variant="contained" color="primary" onClick={onSubmit}>
-          Add Holiday
+          {action === actionList.Add ? "Add Holiday" : "Edit Holiday"}
         </SubmitButton>
       </Container>
     </>

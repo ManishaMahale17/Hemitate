@@ -261,7 +261,7 @@ const Holiday = ({ getHolidays, HolidayData, deleteHoliday }) => {
     alignItems: "center",
     justifyContent: "center", 
     color: action === actionList.Edit ? "blue" : 
-           action === actionList.Add ? "green" : "blue"
+           action === actionList.Add ? "blue" : "blue"
     
   }}
 >

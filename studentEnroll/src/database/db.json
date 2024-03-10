@@ -1,0 +1,47 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "date": "2024-03-09",
+      "enrollmentNo": "H201",
+      "fullName": "Manisha Tambe",
+      "email": "manisha@gmail.com",
+      "mobileNo": "6789056678",
+      "gender": "female",
+      "branch": "Chennai",
+      "address": "Dighi,Pune",
+      "qualification": "BE",
+      "collegeName": "SPPU,Pune",
+      "passoutYear": "2016",
+      "joinAs": "Intern",
+      "course": "MERN satck",
+      "resume": "path/to/resume.pdf",
+      "adharCard": "path/to/adharCard.pdf",
+      "photoDoc": "path/to/photoDoc.jpg",
+      "panCard": "path/to/panCard.pdf",
+      "digitalSignature": "path/to/digitalSignature.pdf"
+    },
+    {
+      "id": "01af",
+      "date": "2024-03-09",
+      "enrollmentNo": "H202",
+      "fullName": "Vaibhav Tambe",
+      "email": "Vaibhav@gmail.com",
+      "mobileNo": "67898777788",
+      "gender": "female",
+      "branch": "Chandannagar,Pune",
+      "address": "Dighi,Pune",
+      "qualification": "BE",
+      "collegeName": "Samarth College",
+      "passoutYear": "2016",
+      "joinAs": "Intern",
+      "course": "Java Full Stack Development",
+      "resume": "C:\\fakepath\\Notes..txt",
+      "adharCard": "C:\\fakepath\\SupriseTest.txt",
+      "photoDoc": "C:\\fakepath\\Topics.txt",
+      "panCard": "C:\\fakepath\\Topics.txt",
+      "digitalSignature": "C:\\fakepath\\Notes..txt"
+    }
+   
+  ]
+}
